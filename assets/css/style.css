@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@300&display=swap");
+body {
+  margin: 0;
+}
+
+section:nth-of-type(1) {
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+/* headline */
+section:nth-of-type(1) h5:nth-of-type(1) {
+  font-family: "Work Sans", sans-serif;
+  padding: 9px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+section:nth-of-type(1) h2:nth-of-type(1) {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 50px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+/* bild 1 */
+section:nth-of-type(1) img {
+  width: 50%;
+  padding: 0 50px 10px 50px;
+}
+section:nth-of-type(1) h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 70px;
+  margin-top: 50px;
+}
+/*  about "ORBIS"*/
+article:nth-of-type(1) {
+  background: url("../img/portfolio2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 57px 0px 20px 107px;
+}
+article:nth-of-type(1) p:nth-of-type(1) {
+  font-size: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+article:nth-of-type(1) h1:nth-of-type(1) {
+  font-size: 60px;
+  font-family: "Didact Gothic";
+  margin: 0 0 20px 0;
+}
+article:nth-of-type(1) p:nth-of-type(2) {
+  font-size: 10px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 44px;
+}
+article:nth-of-type(1) button:nth-of-type(1) {
+  border: solid white 1px;
+  background-color: unset;
+  color: white;
+  font-size: 7px;
+  padding: 7px 10px;
+  font-family: "Fjalla One", sans-serif;
+}
+article:nth-of-type(1) button:nth-of-type(1):hover {
+  background: white;
+  color: black;
+}
+article:nth-of-type(1) h2 {
+  font-size: 75px;
+  font-weight: 30px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: right;
+  padding: 0 65px 65px 0;
+  margin: 0;
+  color: #424242;
+}
+/* about ROLLR  */
+article:nth-of-type(2) {
+  background: url("../img/portfolio3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  padding: 103px 50px 60px 107px;
+}
+article:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 10px;
+  font-family: "Didact Gothic", sans-serif;
+}
+article:nth-of-type(2) h1:nth-of-type(1) {
+  font-size: 60px;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 0 0 20px 0;
+}
+article:nth-of-type(2) p:nth-of-type(2) {
+  font-size: 10px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 44px;
+}
+article:nth-of-type(2) button:nth-of-type(1) {
+  border: solid lightgray 1.5px;
+  background-color: unset;
+  color: black;
+  font-size: 7px;
+  padding: 7px 10px;
+  font-family: "Fjalla One", sans-serif;
+}
+article:nth-of-type(2) button:nth-of-type(1):hover {
+  background: black;
+  color: white;
+}
+article:nth-of-type(2) h2 {
+  font-size: 75px;
+  font-weight: 30px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: right;
+  padding: 0 0 65px 0;
+  margin: 0;
+  color: #616161;
+}
+/*  about "GALITO´s"*/
+article:nth-of-type(3) {
+  background: url("../img/portfolio4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 57px 0px 20px 107px;
+}
+article:nth-of-type(3) p:nth-of-type(1) {
+  font-size: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+article:nth-of-type(3) h1:nth-of-type(1) {
+  font-size: 60px;
+  font-family: "Didact Gothic";
+  margin: 0 0 20px 0;
+}
+article:nth-of-type(3) p:nth-of-type(2) {
+  font-size: 10px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 44px;
+}
+article:nth-of-type(3) button:nth-of-type(1) {
+  border: solid white 1px;
+  background-color: unset;
+  color: white;
+  font-size: 7px;
+  padding: 7px 10px;
+  font-family: "Fjalla One", sans-serif;
+}
+article:nth-of-type(3) button:nth-of-type(1):hover {
+  background: white;
+  color: black;
+}
+article:nth-of-type(3) h2 {
+  font-size: 75px;
+  font-weight: 30px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: right;
+  padding: 0 65px 65px 0;
+  margin: 0;
+  color: #424242;
+}
+/* about TRETTO */
+article:nth-of-type(4) {
+  background: url("../img/portfolio5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  padding: 103px 50px 60px 107px;
+}
+article:nth-of-type(4) p:nth-of-type(1) {
+  font-size: 10px;
+  font-family: "Didact Gothic", sans-serif;
+}
+article:nth-of-type(4) h1:nth-of-type(1) {
+  font-size: 60px;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 0 0 20px 0;
+}
+article:nth-of-type(4) p:nth-of-type(2) {
+  font-size: 10px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 44px;
+}
+article:nth-of-type(4) button:nth-of-type(1) {
+  border: solid lightgray 1.5px;
+  background-color: unset;
+  color: black;
+  font-size: 7px;
+  padding: 7px 10px;
+  font-family: "Fjalla One", sans-serif;
+}
+article:nth-of-type(4) button:nth-of-type(1):hover {
+  background: black;
+  color: white;
+}
+article:nth-of-type(4) h2 {
+  /* color: white; */
+  font-size: 75px;
+  font-weight: 30px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: right;
+  padding: 0 0 65px 0;
+  margin: 0;
+  color: #616161;
+}
+/*  What more?*/
+article:nth-of-type(5) {
+  background-color: black;
+  color: white;
+  padding: 37px 0 10px 107px;
+}
+article:nth-of-type(5) h1:nth-of-type(1) {
+  font-size: 80px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 30px;
+}
+article:nth-of-type(5) p:nth-of-type(1) {
+  font-size: 9.5px;
+  font-family: "Didact Gothic";
+  color: #616161;
+  margin: 80px 50px 45px 300px;
+}
+article:nth-of-type(5) p:nth-of-type(2) {
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 50px 54px 250px;
+  text-align: center;
+}
+/* ending page */
+article:nth-of-type(6) {
+  margin: 0 auto;
+  text-align: center;
+}
+article:nth-of-type(6) h2 {
+  font-size: 65px;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 115px 0;
+}
+article:nth-of-type(6) h2:last-child {
+    margin-bottom: 150px;
+
+.heart{
+    💓
+    font-weight: bold;
+    font-size:10px;
+}
